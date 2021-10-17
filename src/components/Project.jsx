@@ -3,7 +3,7 @@ import React from 'react'
 const Project = (props) => {
     return (
         <div className="project-container">
-            <img src={props.image} />
+            <img src={props.image} alt="preview"/>
             <div className="project-content" >
                 <h>{props.title}</h><br/>
                 <p>{props.description}</p>

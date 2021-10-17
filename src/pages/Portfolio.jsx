@@ -21,6 +21,14 @@ const Portfolio = () => {
                     language="Javascript (Electron)"
                     icon="fab fa-js"
                 />
+                <br/><br/><br/>
+                <Project 
+                    image="./images/portfolio/discord.jpg"
+                    title="Aura Bot"
+                    description="Aura is a space themed Discord bot featuring a currency system along with other categories such as fun, utility and moderation."
+                    language="Python"
+                    icon="fab fa-python"
+                />
             </div>
         </div>
     )

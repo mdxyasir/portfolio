@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import About from "./pages/About"
+import Skills from "./pages/Skills"
 import Portfolio from "./pages/Portfolio";
 import Footer from "./components/Footer";
 import Redirect from "./pages/Redirect";
@@ -15,7 +15,7 @@ function App() {
       <Switch>
 
         <Route exact path="/" component={Home} />
-        <Route exact path="/skills" component={About} />
+        <Route exact path="/skills" component={Skills} />
         <Route exact path="/portfolio" component={Portfolio} />
 
         <Route exact path="/github">
@@ -29,6 +29,8 @@ function App() {
         <Route exact path="/discord">
           <Redirect url="https://discord.com/users/813725007078752266" /> 
         </Route>
+
+        <Route component={Home} />
 
       </Switch>
       <Footer />
