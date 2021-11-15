@@ -29,8 +29,8 @@ const Skills = () => {
                     />
 
                     <Skill
-                        icon="fab fa-vuejs"
-                        name="Vue"
+                        icon="fas fa-code"
+                        name="Go"
                         level="Beginner"
                     />
 
