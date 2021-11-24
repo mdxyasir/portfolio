@@ -5,7 +5,7 @@ const Home = () => {
         <div className="home">
             <div className="container">
                 <h1 style={{textAlign: "left"}} >Hello, I'm Yasir.</h1>
-                <h2>Python and Web Developer</h2>
+                <h2>Developer, Artist, and Student</h2>
                 <br/>
 
                 <Button link="https://github.com/mdxyasir" label="mdxyasir" icon="fab fa-github" />
