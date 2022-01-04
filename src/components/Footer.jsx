@@ -6,7 +6,7 @@ const Footer = () => {
             <a href="mailto:mdxyasir@gmail.com"><i className="fas fa-envelope"></i></a>
             <a href="https://deviantart.com/mdxyasir" target="_blank"><i className="fab fa-deviantart"></i></a>
             <br/>
-            <p1>© 2021 Yasir</p1>
+            <p1>Yasir・2022</p1>
             <br/>
         </div>
     )
