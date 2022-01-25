@@ -9,7 +9,7 @@ const Home = () => {
                 <br/>
 
                 <Button link="https://github.com/mdxyasir" label="mdxyasir" icon="fab fa-github" />
-                <Button link="mailto:mdxyasir@gmail.com" label="mdxyasir@gmail.com" icon="fas fa-envelope" />
+                <Button link="mailto:hello@mdxyasir.com" label="hello@mdxyasir.com" icon="fas fa-envelope" />
                 <Button link="https://deviantart.com/mdxyasir" label="mdxyasir" icon="fab fa-deviantart" />        
             </div>
         </div>
