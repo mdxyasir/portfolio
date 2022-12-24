@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    align-items: center;
+    text-align: center;
+
+    height: 75vh;
+    margin: auto 1rem;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.text {
+    margin-bottom: 1rem;
+}
+
+.contact {
+    background-color: #B10B30;
+    color: white;
+
+    padding: 1rem 2rem;
+}
+
+.contact:hover {
+    background-color: #A10A2A;
+    padding: 1.25rem 2.5rem;
+}
