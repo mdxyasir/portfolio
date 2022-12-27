@@ -20,6 +20,15 @@ span {
     font-weight: inherit;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.title {
+    margin-bottom: 1rem;
+}
+
 ::selection {
     background: #B10B30;
     color: white; 
