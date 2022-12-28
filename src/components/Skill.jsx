@@ -3,7 +3,7 @@ import React from 'react'
 const Skill = (props) => {
     return (
         <div className={props.className}>
-            <i class={props.icon} />
+            <i className={props.icon} />
             {props.name}
         </div>
     )
