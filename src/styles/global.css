@@ -38,3 +38,15 @@ h1 {
     background: #B10B30;
     color: white; 
 }
+
+::-webkit-scrollbar {
+	width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #F0F0F0;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #B10B30;
+}
