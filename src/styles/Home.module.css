@@ -6,7 +6,7 @@
     align-items: center;
     text-align: center;
 
-    height: 75vh;
+    height: 80vh;
     margin: auto 1rem;
 }
 
@@ -24,4 +24,15 @@
 .contact:hover {
     background-color: #A10A2A;
     padding: 1.25rem 2.5rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin: 1rem 0;
+    width: 10rem;
+
+    font-size: 32px;
 }
