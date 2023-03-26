@@ -12,6 +12,16 @@ const Portfolio = () => {
         <div className={styles.projects}>
 
             <Project
+                title='Kilero Marketing'
+                image='kilero-marketing.png'
+                description="A website for a marketing and management agency that provides comprehensive solutions to help businesses grow and succeed. "
+                language='React'
+                icon='fab fa-react'
+
+                styles={styles}
+            />
+
+            <Project
                 title='Nitro Design'
                 image='nitro-design.png'
                 description="A Discord bot for the 10,000+ member community, Nitro Design. It features a marketplace, a starboard, and an application system for skilled roles."
